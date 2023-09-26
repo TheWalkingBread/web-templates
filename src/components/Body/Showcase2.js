@@ -31,21 +31,39 @@ export default function Showcase2(props) {
 				</div>
 				<div className={style.showcase2_row1_contents}>
 					<div className={style.showcase2_row1_content}>
+						<Image src={'/template1/content2.png'} width={800} height={800} alt='Content image' className={style.showcase2_content_image} />
+						<div className={style.showcase2_content_details}>
+							<p className={style.showcase2_content_details_t1}>Lorem Ipsum Dolor</p>
+							<p className={style.showcase2_content_details_t2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div className={style.showcase2_content_details_ruler}></div>
+							<p className={style.showcase2_content_details_t3}>$1,000,000</p>
+						</div>
+					</div>
+					<div className={style.showcase2_row1_content}>
+						<Image src={'/template1/content3.png'} width={800} height={800} alt='Content image' className={style.showcase2_content_image} />
+						<div className={style.showcase2_content_details}>
+							<p className={style.showcase2_content_details_t1}>Lorem Ipsum Dolor</p>
+							<p className={style.showcase2_content_details_t2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div className={style.showcase2_content_details_ruler}></div>
+							<p className={style.showcase2_content_details_t3}>$1,000,000</p>
+						</div>
+					</div>
+					<div className={style.showcase2_row1_content}>
 						<Image src={'/template1/content1.png'} width={800} height={800} alt='Content image' className={style.showcase2_content_image} />
 						<div className={style.showcase2_content_details}>
-							<p>Lorem Ipsum Dolor</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							<div></div>
-							<p>$1,000,000</p>
+							<p className={style.showcase2_content_details_t1}>Lorem Ipsum Dolor</p>
+							<p className={style.showcase2_content_details_t2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div className={style.showcase2_content_details_ruler}></div>
+							<p className={style.showcase2_content_details_t3}>$1,000,000</p>
 						</div>
 					</div>
 				</div>
 				{/* <Image src={'/template1/showcase2.png'} width={800} height={800} alt='Hero Image' className={style.showcase2_row1_image} /> */}
 				<div></div>
 			</div>
-			<div className={style.showcase2_row2}>
+			{/* <div className={style.showcase2_row2}>
 				{getBottomData()}
-			</div>
+			</div> */}
 		</div>
 	);
 }

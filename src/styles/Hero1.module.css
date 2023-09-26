@@ -1,4 +1,4 @@
-.hero_container{
+.hero_container {
     color: #252525;
     /* height: calc(100vh - 100px); */
     height: 783px;
@@ -10,20 +10,27 @@
     position: relative;
     padding: 122px;
 }
-.hero_heading{
+
+.hero_container * {
+    transition: 0.5s;
+}
+
+.hero_heading {
     width: 577px;
     font-size: 45px;
     text-align: left;
     font-family: 'DM Serif Display';
 }
-.hero_subheading{
+
+.hero_subheading {
     font-size: 28px;
     margin-bottom: 58px;
     margin-top: 13px;
     font-family: 'Lato';
     width: 724px;
 }
-.hero_button{
+
+.hero_button {
     font-size: 23px;
     background-color: #252525;
     color: #fbfbfb;
@@ -37,10 +44,12 @@
     justify-content: center;
     align-items: center;
 }
-.hero_button:hover{
+
+.hero_button:hover {
     background-color: rgb(175, 175, 175);
 }
-.hero_image{
+
+.hero_image {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -48,20 +57,94 @@
     width: 80%;
     max-width: 1051px;
 }
-.hero_bottom_data{
+
+.hero_bottom_data {
     display: flex;
     flex-direction: row;
 }
-.hero_bottom_data_column{
+
+.hero_bottom_data_column {
     display: flex;
     flex-direction: column;
     margin-right: 70px;
 }
-.hero_bottom_data_column_value{
+
+.hero_bottom_data_column_value {
     font-family: 'DM Serif Display';
     font-size: 45px;
 }
-.hero_bottom_data_column_label{
+
+.hero_bottom_data_column_label {
     font-family: 'Lato';
     font-size: 23px;
+}
+
+@media only screen and (max-width: 1650px) {
+    .hero_container {
+        padding: 9vw;
+    }
+    .hero_heading {
+        font-size: 2vw;
+    }
+
+    .hero_subheading {
+        font-size: 1.4vw;
+        width: 40.4vw;
+        margin-bottom: 3vw;
+    }
+
+    .hero_button {
+        font-size: 1.4vw;
+        margin-bottom: 3vw;
+    }
+
+    .hero_bottom_data {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_bottom_data_column {
+        margin-bottom: 10px;
+    }
+    .hero_bottom_data_column_value {
+        font-size: 2.4vw;
+    }
+
+    .hero_bottom_data_column_label {
+        font-size: 1.6vw;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .hero_heading {
+        font-size: 24px;
+    }
+
+    .hero_subheading {
+        font-size: 20px;
+        width: 450px;
+        margin-bottom: 3vw;
+    }
+
+    .hero_button {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .hero_bottom_data {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_bottom_data_column {
+        margin-bottom: 10px;
+    }
+    .hero_bottom_data_column_value {
+        font-size: 34px;
+    }
+
+    .hero_bottom_data_column_label {
+        font-size: 20px;
+    }
+
 }

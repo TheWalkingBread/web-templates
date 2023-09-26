@@ -38,7 +38,8 @@ export default function Home() {
                         'Lorem Ipsum3': 'Lorem Ipsum dolor sit Amet, Consectetur adipiscing elit',
                     }}
                 />
-                <Body.Showcase2/>
+                <Body.Showcase2
+                />
             </Sections.Body1>
 
             <Sections.Footer1 style={style}>
