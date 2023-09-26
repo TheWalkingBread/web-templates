@@ -1,0 +1,107 @@
+.preview_container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+
+}
+.preview{
+    width: 1080px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.preview_header{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: 2px solid grey ;
+}
+.preview_header_heading{
+    font-size: 2em;
+}
+.preview_templates{
+    padding: 20px 0px;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+.preview_details{
+    
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.preview_iframe{
+    width: 1080px;
+    height: 700px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.preview_iframe_expanded{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    padding-top: 40px;
+    background-color: white;
+}
+.preview_iframe_component{
+    width: 100%;
+    height: 100vh;
+}
+.preview_iframe_button{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(177, 177, 177);
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+}
+.preview_iframe_button_expanded{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+}
+.preview_details_heading{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.preview_details_subheading{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+.preview_details_colors{
+    display: flex;
+    flex-direction: row;
+}
+.preview_details_colors div:first-child{
+    margin-left: 10px;
+}
