@@ -20,12 +20,12 @@ export default function Preview() {
         fetch('/api/listTemplates')
             .then(response => response.json())
             .then(data => {
-                console.log(data.data)
+                // console.log(data.data)
                 setTemplates(data.data);
                 setLoading(false);
             })
             .catch(error => {
-                console.error("Error fetching directories:", error);
+                // console.error("Error fetching directories:", error);
                 setLoading(false);
             });
     }, []); // The empty dependency array ensures this useEffect runs once when the component mounts

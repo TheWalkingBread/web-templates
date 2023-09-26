@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap');
+
 .preview_container{
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
     font-size: 16px;
-
+    font-family: Plus Jakarta Sans;
 }
 .preview{
     width: 1080px;
