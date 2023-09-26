@@ -10,24 +10,40 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
     return (
         <main>
-            <Sections.Header style={style}>
+            <Sections.Header1 style={style}>
                 <Link href={'/template1'}>Home</Link>
                 <Link href={'/template1/'}>About Us</Link>
                 <Link href={'/template1/'}>Services</Link>
                 <Link href={'/template1/'}>Contact</Link>
-            </Sections.Header>
+            </Sections.Header1>
 
-            <Sections.Body style={style}>
+            <Sections.Body1 style={style}>
                 <Body.Hero1
-                    t1={'Innovate with Tech Solutions'}
-                    t2={'Bringing the future to your doorstep.'}
-                    bt={'Learn More'}
+                    t1={'Lorem Ipsum dolor sit Amet, Consectetur adipiscing elit'}
+                    t2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+                    bt={'Get Started'}
+                    bottomData={{
+                        'Listed Properties': '1500 +',
+                        'Active Customers': '5000 +',
+                        'Partners': '200 +',
+                    }}
                 />
-            </Sections.Body>
+                <Body.Showcase1
+                    t1={'Why Choose Us?'}
+                    t2={'Lorem Ipsum dolor sit Amet, Consectetur adipiscing elit'}
+                    t3={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
+                    bottomData={{
+                        'Lorem Ipsum': 'Lorem Ipsum dolor sit Amet, Consectetur adipiscing elit',
+                        'Lorem Ipsum2': 'Lorem Ipsum dolor sit Amet, Consectetur adipiscing elit',
+                        'Lorem Ipsum3': 'Lorem Ipsum dolor sit Amet, Consectetur adipiscing elit',
+                    }}
+                />
+                <Body.Showcase2/>
+            </Sections.Body1>
 
-            <Sections.Footer style={style}>
+            <Sections.Footer1 style={style}>
 
-            </Sections.Footer>
+            </Sections.Footer1>
 
         </main>
     )

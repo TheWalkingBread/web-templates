@@ -1,0 +1,138 @@
+.showcase2_container{
+    color: #252525;
+    /* height: calc(100vh - 100px); */
+    height: 1117px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    position: relative;
+    padding: 62px 0px;
+}
+.showcase2_heading{
+    width: 577px;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'DM Serif Display';
+}
+.showcase2_subheading{
+    font-size: 28px;
+    margin-bottom: 58px;
+    margin-top: 13px;
+    font-family: 'Lato';
+    width: 724px;
+}
+.showcase2_row1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.showcase2_row1_t1{
+    font-size: 28px;
+    color: #716412;
+    font-family: 'Lato';
+}
+.showcase2_row1_t2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 86px;
+}
+.showcase2_row1_t2 p{
+    font-size: 45px;
+    color: #252525;
+    font-family: 'DM Serif Display';
+    margin: 0px 33px;
+}
+.showcase2_row1_t2 div{
+    width: 315px;
+    height: 2px;
+    background-color: #716412;
+}
+.showcase2_row1_content{
+    width: 315;
+    height: auto;
+    border-radius: 20px;
+}
+.showcase2_content_image{
+    width: 100%;
+    height: 237px;
+    object-fit: contain;
+    border-radius:10px 10px 0px 0px;
+}
+.showcase2_content_details{
+    width: 100%;
+    height: auto;
+    background-color: #f1f0f0;
+    border-radius: 0px 0px 10px 10px;
+    padding: 21px;
+}
+
+
+
+.showcase2_row1_image{
+    height: auto;
+    width: 80%;
+    max-width: 708px;
+}
+.showcase2_row1_details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 594px;
+    padding-left: 122px;
+}
+.showcase2_row1_details_p1{
+    font-family: 'Lato';
+    font-size: 28px;
+    color: #716412;
+    margin: 0;
+}
+.showcase2_row1_details_p2{
+    font-family: 'DM Serif Display';
+    color: #252525;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+.showcase2_row1_details_p3{
+    font-family: 'Lato';
+    color: #252525;
+    font-size: 28px;
+
+}
+.showcase2_row2{
+    height: 284px;
+    width: 100%;
+    background-color: #d0bc95;
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.showcase2_row2_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 365px;
+}
+.showcase2_row2_column_value{
+    font-family: 'Lato';
+    font-size: 28px;
+    text-align: left;
+}
+.showcase2_row2_column_label{
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    width: 100%;
+    text-align: left;
+}
