@@ -1,8 +1,8 @@
 {
-    "primaryColor": "#3498db",
-    "secondaryColor": "#e74c3c",
-    "fontColor" : "black",
+    "primaryColor": "#716142",
+    "secondaryColor": "#d0BC95",
+    "fontColor" : "#252525",
     "fontFamily": "Arial, sans-serif",
-    "templateName": "Tech Solutions Page",
-    "templateDescription" : "A page made for IT businesses and the like"
+    "templateName": "Cream Colored Real Estate",
+    "templateDescription" : "A page made for you to showcase your real estate listings"
 }

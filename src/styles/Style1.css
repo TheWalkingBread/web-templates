@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@300;400;700;900&display=swap');
-
-:root {
-    --primary-color: #cb9800;
-    --secondary-color: #000000;
-    --text-color: #fff;
-
-    --header-footer-width : 100vw;
-    --header-footer-height : 100px;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 main{
     font-family: Plus Jakarta Sans;

@@ -31,36 +31,42 @@ export default function Preview() {
     }, []); // The empty dependency array ensures this useEffect runs once when the component mounts
 
     const getTemplates = () => {
-        const templateButtons = Object.keys(templates).map(templateKey => {
-            const template = templates[templateKey];
-            return (
-                <button
-                    key={templateKey}
-                    style={{
-                        backgroundColor: template.primaryColor,
-                        color: template.fontColor,
-                        marginRight: '10px',
-                        padding: '10px',
-                        borderRadius: '10px',
-                        cursor: 'pointer'
-                    }}
-                    title={template.templateDescription}
-                    onClick={() => setSelectedTemplate({ [templateKey]: template })}
+        try {
+            const templateButtons = Object.keys(templates).map(templateKey => {
+                const template = templates[templateKey];
+                return (
+                    <button
+                        key={templateKey}
+                        style={{
+                            backgroundColor: template.secondaryColor,
+                            backgroundImage: template.secondaryColor,
+                            color: template.fontColor,
+                            marginRight: '10px',
+                            padding: '10px',
+                            borderRadius: '10px',
+                            cursor: 'pointer'
+                        }}
+                        title={template.templateDescription}
+                        onClick={() => setSelectedTemplate({ [templateKey]: template })}
 
-                >
-                    {template.templateName}
-                </button>
-            );
-        })
-        return templateButtons
+                    >
+                        {template.templateName}
+                    </button>
+                );
+            })
+            return templateButtons
+        }
+        catch(err){
+            console.log(err)
+        }
     }
 
     const toggleIframe = () => {
-        if(iframeClass == style.preview_iframe){
+        if (iframeClass == style.preview_iframe) {
             setIframeClass(style.preview_iframe_expanded)
             setIframeButtonClass(style.preview_iframe_button_expanded)
         }
-        else{
+        else {
             setIframeClass(style.preview_iframe)
             setIframeButtonClass(style.preview_iframe_button)
         }
@@ -92,12 +98,14 @@ export default function Preview() {
                                                 <div
                                                     style={{
                                                         backgroundColor: selectedTemplate[templateKey].primaryColor,
+                                                        backgroundImage: selectedTemplate[templateKey].primaryColor,
                                                         width: '50px',
                                                         height: '25px'
                                                     }}
                                                 ></div><div
                                                     style={{
                                                         backgroundColor: selectedTemplate[templateKey].secondaryColor,
+                                                        backgroundImage: selectedTemplate[templateKey].secondaryColor,
                                                         width: '50px',
                                                         height: '25px'
                                                     }}

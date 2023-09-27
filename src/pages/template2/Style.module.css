@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+.main{
+    background-color: #060a1b;
+}
 /*#region Body*/
 .body_container {
 
-    background-color: #FBFBFB;
+    background-color: transparent;
     min-height: calc(100vh - 200px);
 }
 
@@ -10,7 +15,7 @@
 /*#region Footer*/
 .footer_container {
     height: 100px;
-    background-color: #d0bc95;
+    background-color: transparent;
     border: 0;
     color: #FBFBFB;
     display: flex;
