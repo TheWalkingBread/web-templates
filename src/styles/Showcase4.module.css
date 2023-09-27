@@ -12,9 +12,11 @@
     position: relative;
     padding: 127px 0px;
 }
-.showcase4_container *{
+
+.showcase4_container * {
     transition: 0.5s;
 }
+
 .showcase4_row1 {
     display: flex;
     flex-direction: row;
@@ -44,9 +46,11 @@
     color: #dfdbdb;
     margin: 0;
 
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(148,148,148,1) 100%);
-    color: transparent; /* Make the text transparent to show the background */
-    -webkit-background-clip: text; /* Clip the background to the text */
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(148, 148, 148, 1) 100%);
+    color: transparent;
+    /* Make the text transparent to show the background */
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -86,12 +90,15 @@
     color: #DFDBDB;
     margin: 0;
 
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(148,148,148,1) 100%);
-    color: transparent; /* Make the text transparent to show the background */
-    -webkit-background-clip: text; /* Clip the background to the text */
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(148, 148, 148, 1) 100%);
+    color: transparent;
+    /* Make the text transparent to show the background */
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .showcase4_row2_column {
     display: flex;
     flex-direction: column;
@@ -121,6 +128,7 @@
         width: 80%;
         max-width: 708px;
     }
+
     .showcase4_row1_details {
         display: flex;
         flex-direction: column;
@@ -131,11 +139,11 @@
     }
 
     .showcase4_row1_details_p1 {
-        font-size: 1.8vw;
+        font-size: 2.8vw;
     }
 
     .showcase4_row1_details_p2 {
-        font-size: 2.8vw;
+        font-size: 1.8vw;
         margin-bottom: 3vw;
     }
 
@@ -143,23 +151,26 @@
         font-size: 2vw;
 
     }
+
     .showcase4_row2_column {
         width: 20vw;
     }
+
     .showcase4_row2_column_value {
         font-size: 2vw;
     }
-    
+
     .showcase4_row2_column_label {
         font-size: 3vw;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    .showcase4_container{
+    .showcase4_container {
         height: auto;
         padding-bottom: 30px;
     }
+
     .showcase4_row1 {
         flex-direction: column;
     }
@@ -169,11 +180,11 @@
     }
 
     .showcase4_row1_details_p1 {
-        font-size: 24px;
+        font-size: 34px;
     }
 
     .showcase4_row1_details_p2 {
-        font-size: 29px;
+        font-size: 25px;
     }
 
     .showcase4_row1_details_p3 {
@@ -182,19 +193,21 @@
     }
 
     .showcase4_row2 {
-    
+
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-    }    
+    }
+
     .showcase4_row2_column {
         width: 20vw;
     }
+
     .showcase4_row2_column_value {
         font-size: 2vw;
     }
-    
+
     .showcase4_row2_column_label {
         font-size: 3vw;
     }

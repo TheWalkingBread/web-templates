@@ -95,17 +95,17 @@
         padding: 9vw;
     }
     .hero_heading {
-        font-size: 2vw;
+        font-size: 5vw;
     }
 
     .hero_subheading {
-        font-size: 1.4vw;
-        width: 40.4vw;
+        font-size: 2vw;
+        width: 60.4vw;
         margin-bottom: 3vw;
     }
 
     .hero_button {
-        font-size: 1.4vw;
+        font-size: 2vw;
         margin-bottom: 3vw;
     }
 
@@ -129,20 +129,28 @@
 @media only screen and (max-width: 1200px) {
 
     .hero_heading {
-        font-size: 24px;
+        font-size: 60px;
     }
 
     .hero_subheading {
-        font-size: 20px;
+        font-size: 30px;
         width: 450px;
         margin-bottom: 3vw;
     }
 
     .hero_button {
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 35px;
+        padding: 13px 50px;
+        height: 60px;
     }
-
+    .hero_image {
+        right: 0;
+        bottom: 0;
+        height: auto;
+        width: 90%;
+        max-width: 813px;
+    }
     .hero_bottom_data {
         display: flex;
         flex-direction: column;

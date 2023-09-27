@@ -61,9 +61,11 @@
     margin: 0px 33px;
     letter-spacing: 5px;
 
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(148,148,148,1) 100%);
-    color: transparent; /* Make the text transparent to show the background */
-    -webkit-background-clip: text; /* Clip the background to the text */
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(148, 148, 148, 1) 100%);
+    color: transparent;
+    /* Make the text transparent to show the background */
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -82,6 +84,7 @@
     text-align: center;
     margin-bottom: 58px;
 }
+
 .showcase3_row1_contents {
     display: flex;
     flex-direction: row;
@@ -95,7 +98,7 @@
     border-radius: 20px;
     margin: 0px 37px;
     backdrop-filter: blur(8px);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.269);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,9 +132,11 @@
     color: #DFDBDB;
     margin: 0;
 
-    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(148,148,148,1) 100%);
-    color: transparent; /* Make the text transparent to show the background */
-    -webkit-background-clip: text; /* Clip the background to the text */
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(148, 148, 148, 1) 100%);
+    color: transparent;
+    /* Make the text transparent to show the background */
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -148,7 +153,7 @@
 
 .showcase3_content_details_button {
     font-size: 16px;
-    background-image: linear-gradient(180deg, rgba(97,22,157,1) 0%, rgba(179,25,127,1) 100%);
+    background-image: linear-gradient(180deg, rgba(97, 22, 157, 1) 0%, rgba(179, 25, 127, 1) 100%);
     color: #fbfbfb;
     border-radius: 30px;
     transition: 0.5s;
@@ -167,9 +172,7 @@
 @media only screen and (max-width: 1650px) {
 
     .showcase3_row1_t1 {
-        font-size: 2.0vw;
-        color: #716412;
-        font-family: 'Lato';
+        font-size: 3.0vw;
     }
 
     .showcase3_row1_t2 {
@@ -182,18 +185,14 @@
     }
 
     .showcase3_row1_t2 p {
-        font-size: 3vw;
-        color: #252525;
-        font-family: 'DM Serif Display';
-        margin: 0px 33px;
+        font-size: 5vw;
+        margin: 0px 0px 40px 0px;
     }
 
-    .showcase3_row1_t2 div {
-        width: 25vw;
-        height: 2px;
-        background-color: #716412;
+    .showcase3_row1_t3 {
+        font-size: 2.6vw;
+        max-width: 70%;
     }
-
     .showcase3_row1_content {
         margin: 5vw 37px;
     }

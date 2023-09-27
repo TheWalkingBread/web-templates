@@ -42,6 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 1100px;
 }
 
 .carousel1_slides {
@@ -84,4 +85,31 @@
 
 .carousel1_next {
     right: 10px;
+}
+@media only screen and (max-width: 1650px) {
+
+    .carousel1_slide {
+        flex: 0 0 100%;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel1_slide img {
+        max-width: 80%;
+        max-height:80%;
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel1_slide img {
+        max-width: 80%;
+        max-height:80%;
+        width: 37vw;
+    }
+    .carousel1_component{
+        min-width: 90vw;
+    }
 }
