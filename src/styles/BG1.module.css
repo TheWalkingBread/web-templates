@@ -1,0 +1,54 @@
+.BG1_container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+.mr_1{
+    position: absolute;
+    width: 385.26px;
+    height: 474.71px;
+    left: 0;
+    top: 0;
+    background: #6524D7;
+    filter: blur(100px);
+    transform: matrix(-1, -0.07, -0.07, 1, 0, 0);
+    z-index: -5;
+    opacity: .3;
+}
+.mr_2{
+    position: absolute;
+    width: 385.26px;
+    height: 250.71px;
+    left: 10%;
+    top: 0;
+    background: #EE2A7B;
+    filter: blur(100px);
+    transform: matrix(-1, -0.07, -0.07, 1, 0, 0);
+    z-index: -5;
+    opacity: .3;
+}
+.mr_3{
+    position: absolute;
+    width: 485.26px;
+    height: 350.71px;
+    right: 0;
+    bottom: 0;
+    background: #EE2A7B;
+    filter: blur(100px);
+    transform: matrix(-1, -0.07, -0.07, 1, 0, 0);
+    z-index: -5;
+    opacity: .3;
+}
+.mr_4{
+    position: absolute;
+    width: 385.26px;
+    height: 250.71px;
+    right: 0;
+    bottom: 30%;
+    background: #1e57ba;
+    filter: blur(100px);
+    transform: matrix(-1, -0.07, -0.07, 1, 0, 0);
+    z-index: -5;
+    opacity: .3;
+}

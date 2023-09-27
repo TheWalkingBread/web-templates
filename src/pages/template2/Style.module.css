@@ -8,6 +8,8 @@
 
     background-color: transparent;
     min-height: calc(100vh - 200px);
+    position: relative;
+    z-index: 10;
 }
 
 /*#endregion */
@@ -15,7 +17,7 @@
 /*#region Footer*/
 .footer_container {
     height: 100px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.15);
     border: 0;
     color: #FBFBFB;
     display: flex;
@@ -23,6 +25,9 @@
     align-items: center;
     font-family: Lato;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
+    backdrop-filter: blur(8px);
 }
 
 .footer_container div {

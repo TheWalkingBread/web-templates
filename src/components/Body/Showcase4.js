@@ -30,9 +30,6 @@ export default function showcase4(props) {
                     
                 </div>
             </div>
-            <div className={style.showcase4_row2}>
-                <p className={style.showcase4_row2_t1}>OUR PARTNERS</p>
-            </div>
         </div>
     );
 }

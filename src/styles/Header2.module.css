@@ -6,10 +6,12 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: #060a1b;
+    background-color: transparent;
     padding: 20px;
     font-family: Montserrat;
     color: #DFDBDB;
+    position: relative;
+    z-index: 10;
 }
 
 .header2_links,.header2_links_expanded {
