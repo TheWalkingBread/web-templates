@@ -2,7 +2,6 @@
 
 .cards1_container {
     color: #252525;
-    height: calc(100vh - 100px);
     /* height: 645px; */
     display: flex;
     justify-content: center;

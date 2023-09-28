@@ -22,10 +22,10 @@ export default function Home() {
     return (
         <main className={style.main}>
             <Sections.Header2 style={style}>
-                <Link href={'/template1'}>Home</Link>
-                <Link href={'/template1/'}>About Us</Link>
-                <Link href={'/template1/'}>Our Services</Link>
-                <Link href={'/template1/'}>Contact Us</Link>
+                <Link href={'/template2'}>Home</Link>
+                <Link href={'/template2/'}>About Us</Link>
+                <Link href={'/template2/'}>Our Services</Link>
+                <Link href={'/template2/'}>Contact Us</Link>
             </Sections.Header2>
 
             <Sections.Body1 style={style}>

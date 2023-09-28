@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+.cards2_container {
+    color: #252525;
+    /* height: 645px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    position: relative;
+    padding: 127px 0px;
+}
+
+.cards2_container * {
+    transition: 0.5s;
+}
+
+.cards2_p1 {
+    font-family: Anton;
+    letter-spacing: 10px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    width: 1200px;
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, #FFF 55.28%, #060A1B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards2_p2 {
+    color: #252525;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    width: 1200px;
+}
+
+
+.cards2_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.cards2_card {
+    border-radius: 10px;
+    background: rgba(62, 62, 62, 0.23);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(2.5px);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 20px 20px;
+    margin: 20px 0px;
+}
+
+.cards2_card div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards2_card_image {
+    border-radius: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0px 30px;
+}
+
+.cards2_card_name {
+    color: #B3197F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cards2_card_title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+
+.cards2_card_button {
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 40px;
+    border-radius: 7px;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1.5px solid #252525;
+    background: #252525;
+    padding: 10px 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 1650px) {
+    .cards2_p1 {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {}
