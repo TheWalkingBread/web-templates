@@ -6,3 +6,6 @@ export { default as Showcase2} from './Showcase2';
 export { default as Showcase3} from './Showcase3';
 export { default as Showcase4} from './Showcase4';
 export { default as Carousel1} from './Carousel1';
+export { default as About1} from './About1';
+export { default as Cards1} from './Cards1';
+export { default as Contact1} from './Contact1';
