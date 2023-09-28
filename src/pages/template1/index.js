@@ -13,7 +13,7 @@ export default function Home() {
             <Sections.Header1 style={style}>
                 <Link href={'/template1'}>Home</Link>
                 <Link href={'/template1/'}>About Us</Link>
-                <Link href={'/template1/'}>Services</Link>
+                <Link href={'/template1/'}>Agents</Link>
                 <Link href={'/template1/'}>Contact</Link>
             </Sections.Header1>
 

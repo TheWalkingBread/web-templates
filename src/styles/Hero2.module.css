@@ -11,6 +11,7 @@
     background-color: transparent;
     position: relative;
     padding: 122px;
+    margin-bottom: 60px;
 }
 
 .hero_container * {
@@ -65,8 +66,8 @@
     right: 0;
     bottom: 0;
     height: auto;
-    width: 80%;
-    max-width: 813px;
+    width: 70%;
+    max-width: 613px;
 }
 
 .hero_bottom_data {
