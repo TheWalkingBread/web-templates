@@ -84,6 +84,7 @@
     font-size: 30px;
     margin-top: 40px;
 }
+
 .cards1_card_title {
     font-family: Lato;
     font-weight: 400;
@@ -110,13 +111,6 @@
 
 @media only screen and (max-width: 1650px) {
 
-
-    .cards1_row1_image {
-        height: auto;
-        width: 80%;
-        max-width: 708px;
-    }
-
     .cards1_row1_details {
         display: flex;
         flex-direction: column;
@@ -126,30 +120,84 @@
         padding-left: 5vw;
     }
 
-    .cards1_row1_details_p1 {
-        font-size: 2.8vw;
+    .cards1_p1 {
+        color: #252525;
+        font-family: DM Serif Display;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        width: 80vw;
+        margin-bottom: 50px;
     }
 
-    .cards1_row1_details_p2 {
-        font-size: 1.8vw;
-        margin-bottom: 3vw;
+    .cards1_rule {
+        width: 80vw;
+        height: 2px;
+        margin: 60px 0px 60px 0px;
+        background-color: #d0bc95;
     }
 
-    .cards1_row1_details_p3 {
-        font-size: 2vw;
-
+    .cards1_row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80vw;
     }
 
-    .cards1_row2_column {
-        width: 20vw;
+    .cards1_card {
+        border-radius: 8px;
+        background: #F1F0F0;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        width: 17vw;
+        height: 22.2vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 3vw 1vw;
     }
 
-    .cards1_row2_column_value {
-        font-size: 2vw;
+    .cards1_card_image {
+        border-radius: 5vw;
+        background: #D0BC95;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        width: 5vw;
+        height: 5vw;
+        max-width: 5vw;
+        min-height: 5vw;
     }
 
-    .cards1_row2_column_label {
-        font-size: 3vw;
+    .cards1_card_name {
+        font-family: Lato;
+        font-weight: 800;
+        font-size: 1.7vw;
+        margin-top: 2.0vw;
+    }
+
+    .cards1_card_title {
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 1.3vw;
+    }
+
+    .cards1_card_button {
+        font-family: Lato;
+        font-weight: 800;
+        font-size: 1.7vw;
+        margin-top: 40px;
+        border-radius: 7px;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: 1.5px solid #252525;
+        background: #252525;
+        padding: .7vw 2vw;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -163,40 +211,67 @@
         flex-direction: column;
     }
 
-    .cards1_row1_details {
+    .cards1_row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
         width: 80vw;
     }
 
-    .cards1_row1_details_p1 {
-        font-size: 34px;
-    }
-
-    .cards1_row1_details_p2 {
-        font-size: 25px;
-    }
-
-    .cards1_row1_details_p3 {
-        font-size: 20px;
-
-    }
-
-    .cards1_row2 {
-
+    .cards1_card {
+        border-radius: 8px;
+        background: #F1F0F0;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        width: 315px;
+        height: 390px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
         align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 70px 20px;
+        margin: 30px 30px;
     }
 
-    .cards1_row2_column {
-        width: 20vw;
+    .cards1_card_image {
+        border-radius: 100px;
+        background: #D0BC95;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        width: 100px;
+        height: 100px;
+        max-width: 100px;
+        min-height: 100px;
     }
 
-    .cards1_row2_column_value {
-        font-size: 2vw;
+    .cards1_card_name {
+        font-family: Lato;
+        font-weight: 800;
+        font-size: 30px;
+        margin-top: 40px;
     }
 
-    .cards1_row2_column_label {
-        font-size: 3vw;
+    .cards1_card_title {
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .cards1_card_button {
+        font-family: Lato;
+        font-weight: 800;
+        font-size: 30px;
+        margin-top: 40px;
+        border-radius: 7px;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: 1.5px solid #252525;
+        background: #252525;
+        padding: 10px 30px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 }

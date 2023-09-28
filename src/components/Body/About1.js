@@ -3,22 +3,6 @@ import style from '@/styles/About1.module.css'
 import { data } from 'autoprefixer';
 
 export default function About1(props) {
-	// const getBottomData = () => {
-	//     try {
-	//       const bottomData = Object.keys(props.bottomData).map(dataKey => {
-	//         return (
-	//           <div key={dataKey} className={style.showcase4_row2_column}>
-	//             <p className={style.showcase4_row2_column_label}>{dataKey}</p>
-	//             <p className={style.showcase4_row2_column_value}>{props.bottomData[dataKey]}</p>
-	//           </div>
-	//         );
-	//       })
-	//       return bottomData
-	//     }
-	//     catch (error) {
-
-	//     }
-	//   }
 
 	return (
 		<div className={style.about1_container}>
