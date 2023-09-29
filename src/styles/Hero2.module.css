@@ -19,7 +19,7 @@
 }
 
 .hero_heading {
-    width: 577px;
+    width: 80vwpx;
     font-size: 85px;
     text-align: center;
     font-family: 'Anton';
@@ -130,12 +130,13 @@
 @media only screen and (max-width: 1200px) {
 
     .hero_heading {
+        width: 80vw;
         font-size: 60px;
     }
 
     .hero_subheading {
         font-size: 30px;
-        width: 450px;
+        width: 80vw;
         margin-bottom: 3vw;
     }
 

@@ -9,7 +9,8 @@
     flex-direction: column;
     background-color: transparent;
     position: relative;
-    padding: 127px 300px;
+    padding: 127px;
+    width: 100%;
 }
 
 .carousel1_container * {
@@ -17,7 +18,7 @@
 }
 
 .carousel1_t1 {
-    min-width: 500px;
+    width: 80vw;
     text-align: center;
     font-size: 45px;
     font-family: Anton;
@@ -37,7 +38,7 @@
     position: relative;
     overflow: hidden;
     width: 90%;
-    height: 300px;
+    /* height: 300px; */
     /* Adjust height as needed */
     display: flex;
     justify-content: center;
