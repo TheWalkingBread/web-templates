@@ -8,28 +8,18 @@ import style from './Style.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-    const imagesForGallery = [
-        '/template2/images/image1.png',
-        '/template2/images/image2.png',
-        '/template2/images/image1.png',
-        '/template2/images/image2.png',
-        '/template2/images/image1.png',
-        '/template2/images/image2.png',
-        '/template2/images/image1.png',
-        '/template2/images/image2.png',
-        // ... add more images as needed
-    ];
+
     return (
         <main className={style.main}>
-            <Sections.Header3 style={style}>
-                <Link href={'/template1'}>Home</Link>
-                <Link href={'/template1/'}>About Us</Link>
-                <Link href={'/template1/'}>Our Services</Link>
-                <Link href={'/template1/'}>Contact Us</Link>
-            </Sections.Header3>
+            <Sections.Header4 style={style}>
+                <Link href={'/template4'}>Home</Link>
+                <Link href={'/template4/'}>About Us</Link>
+                <Link href={'/template4/'}>Our Services</Link>
+                <Link href={'/template4/'}>Contact Us</Link>
+            </Sections.Header4>
 
             <Sections.Body1 style={style}>
-                <Body.Hero3/>
+                <Body.Hero4/>
                 {/* <Body.Showcase3/>
                 <Body.Showcase4/> */}
 

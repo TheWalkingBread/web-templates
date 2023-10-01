@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;500;600;700;800&family=Tenor+Sans&display=swap');
 
 .main{
-    background-color: #060a1b;
+    /* background-color: #060a1b; */
+    background-image: url("/template3/templateBG.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*#region Body*/
 .body_container {
@@ -9,7 +13,7 @@
     background-color: transparent;
     min-height: calc(100vh - 200px);
     position: relative;
-    z-index: 10;
+    z-index: 5;
 }
 
 /*#endregion */

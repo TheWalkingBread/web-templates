@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Questrial&display=swap');
+
+.showcase5_container {
+    /* height: calc(100vh - 100px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 200px;
+    margin-top: -180px;
+
+    flex-wrap: wrap;
+}
+
+.showcase5_container * {
+    transition: 0.5s;
+}
+
+.showcase5_card1 {
+    width: 320px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.showcase5_card1_image {
+    width: 350px;
+}
+
+@media only screen and (max-width: 1650px) {}
+
+@media only screen and (max-width: 1200px) {}

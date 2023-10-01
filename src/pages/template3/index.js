@@ -21,26 +21,16 @@ export default function Home() {
     ];
     return (
         <main className={style.main}>
-            <Sections.Header2 style={style}>
-                <Link href={'/template1'}>Home</Link>
-                <Link href={'/template1/'}>About Us</Link>
-                <Link href={'/template1/'}>Our Services</Link>
-                <Link href={'/template1/'}>Contact Us</Link>
-            </Sections.Header2>
+            <Sections.Header3 style={style} page={"index"}/>
 
             <Sections.Body1 style={style}>
-                <Body.Hero2
+                <Body.Hero3
                     t1={'LOREM IPSUM'}
                     t2={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
                     bt={'Explore More'}
 
                 />
-                <Body.Showcase3
-                />
-                <Body.Showcase4
-                />
-
-                <Body.Carousel1 images={imagesForGallery} />
+                <Body.Showcase5/>
 
             </Sections.Body1>
 
